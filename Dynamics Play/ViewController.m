@@ -35,15 +35,23 @@
     self.label.backgroundColor = [UIColor purpleColor];
     self.label.layer.cornerRadius = radius / 2;
     
+    
     [self.view addSubview:self.label];
     
     self.animator = [[UIDynamicAnimator alloc] initWithReferenceView:self.view];
-    
+        
     UIPushBehavior* pushBehavior = [[UIPushBehavior alloc] initWithItems:@[self.label] mode:UIPushBehaviorModeInstantaneous];
     [pushBehavior setAngle:0.0 magnitude:1.0];
     
+    UIGravityBehavior* gravityBehavior = [[UIGravityBehavior alloc] initWithItems:@[self.label]];
     
+    UICollisionBehavior* collisionBehavior = [[UICollisionBehavior alloc] initWithItems:@[self.label]];
+    collisionBehavior.collisionMode = UICollisionBehaviorModeBoundaries;
+    collisionBehavior.translatesReferenceBoundsIntoBoundary = YES;
+    
+    [self.animator addBehavior:collisionBehavior];
     [self.animator addBehavior:pushBehavior];
+    [self.animator addBehavior:gravityBehavior];
 }
 
 
