@@ -14,7 +14,7 @@
 		01C9638A17C6836000749D80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C9638917C6836000749D80 /* main.m */; };
 		01C9638E17C6836000749D80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C9638D17C6836000749D80 /* AppDelegate.m */; };
 		01C9639117C6836000749D80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C9638F17C6836000749D80 /* Main.storyboard */; };
-		01C9639417C6836000749D80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C9639317C6836000749D80 /* ViewController.m */; };
+		01C9639417C6836000749D80 /* GravityAndForcesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C9639317C6836000749D80 /* GravityAndForcesViewController.m */; };
 		01C9639617C6836000749D80 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01C9639517C6836000749D80 /* Images.xcassets */; };
 		01C9639D17C6836000749D80 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C9639C17C6836000749D80 /* XCTest.framework */; };
 		01C9639E17C6836000749D80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C9637D17C6836000749D80 /* Foundation.framework */; };
@@ -45,8 +45,8 @@
 		01C9638C17C6836000749D80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		01C9638D17C6836000749D80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		01C9639017C6836000749D80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		01C9639217C6836000749D80 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		01C9639317C6836000749D80 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01C9639217C6836000749D80 /* GravityAndForcesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GravityAndForcesViewController.h; sourceTree = "<group>"; };
+		01C9639317C6836000749D80 /* GravityAndForcesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GravityAndForcesViewController.m; sourceTree = "<group>"; };
 		01C9639517C6836000749D80 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		01C9639B17C6836000749D80 /* Dynamics PlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dynamics PlayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01C9639C17C6836000749D80 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -116,8 +116,8 @@
 				01C9638C17C6836000749D80 /* AppDelegate.h */,
 				01C9638D17C6836000749D80 /* AppDelegate.m */,
 				01C9638F17C6836000749D80 /* Main.storyboard */,
-				01C9639217C6836000749D80 /* ViewController.h */,
-				01C9639317C6836000749D80 /* ViewController.m */,
+				01C9639217C6836000749D80 /* GravityAndForcesViewController.h */,
+				01C9639317C6836000749D80 /* GravityAndForcesViewController.m */,
 				01C9638417C6836000749D80 /* Supporting Files */,
 			);
 			path = "Dynamics Play";
@@ -260,7 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01C9639417C6836000749D80 /* ViewController.m in Sources */,
+				01C9639417C6836000749D80 /* GravityAndForcesViewController.m in Sources */,
 				01C9638E17C6836000749D80 /* AppDelegate.m in Sources */,
 				01C9638A17C6836000749D80 /* main.m in Sources */,
 			);
@@ -467,6 +467,7 @@
 				01C963AE17C6836000749D80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01C963AF17C6836000749D80 /* Build configuration list for PBXNativeTarget "Dynamics PlayTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +476,7 @@
 				01C963B117C6836000749D80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
