@@ -27,7 +27,7 @@
         <scene sceneID="ioc-eb-c1x">
             <objects>
                 <tabBarController definesPresentationContext="YES" id="JBo-gr-l7Q" sceneMemberID="viewController">
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="A7W-5g-4yU">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -36,16 +36,36 @@
                     <connections>
                         <segue destination="G7c-ho-OSU" kind="relationship" relationship="viewControllers" id="xmT-Gu-SwT"/>
                         <segue destination="Ol6-hz-Ian" kind="relationship" relationship="viewControllers" id="S4g-ho-Ch9"/>
+                        <segue destination="AJf-4F-3Lr" kind="relationship" relationship="viewControllers" id="gcm-N3-UOQ"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DFr-sE-yMr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-507" y="264"/>
         </scene>
-        <!--View Controller - Angular 🌀-->
+        <!--Collision View Controller - Collisions 🎱 -->
+        <scene sceneID="sj5-go-TQM">
+            <objects>
+                <viewController id="AJf-4F-3Lr" customClass="CollisionViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Nhq-Wa-hbK"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZyA-6Q-RwZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BJ6-iv-Vgi">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Collisions 🎱 " id="I2Y-Ov-Uvi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3LN-96-sdf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="27" y="1314"/>
+        </scene>
+        <!--Angular View Controller - Angular 🌀-->
         <scene sceneID="GLP-rG-Mgp">
             <objects>
-                <viewController id="Ol6-hz-Ian" sceneMemberID="viewController">
+                <viewController id="Ol6-hz-Ian" customClass="AngularViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NU8-t1-9fZ"/>
                         <viewControllerLayoutGuide type="bottom" id="mgT-Rz-oVj"/>
@@ -59,7 +79,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BDZ-9l-Eq3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="27" y="590"/>
+            <point key="canvasLocation" x="27" y="630"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

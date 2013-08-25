@@ -25,6 +25,8 @@
 		01FA140C17CA7A62006668A4 /* AngularViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA140A17CA7A62006668A4 /* AngularViewController.m */; };
 		01FA140F17CA7BEE006668A4 /* DynamicButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA140E17CA7BEE006668A4 /* DynamicButton.m */; };
 		01FA141017CA7BEE006668A4 /* DynamicButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA140E17CA7BEE006668A4 /* DynamicButton.m */; };
+		01FA141317CA84B8006668A4 /* CollisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA141217CA84B8006668A4 /* CollisionViewController.m */; };
+		01FA141417CA84B8006668A4 /* CollisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA141217CA84B8006668A4 /* CollisionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		01FA140A17CA7A62006668A4 /* AngularViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AngularViewController.m; sourceTree = "<group>"; };
 		01FA140D17CA7BEE006668A4 /* DynamicButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicButton.h; sourceTree = "<group>"; };
 		01FA140E17CA7BEE006668A4 /* DynamicButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicButton.m; sourceTree = "<group>"; };
+		01FA141117CA84B8006668A4 /* CollisionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollisionViewController.h; sourceTree = "<group>"; };
+		01FA141217CA84B8006668A4 /* CollisionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollisionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +132,8 @@
 				01C9639317C6836000749D80 /* GravityAndForcesViewController.m */,
 				01FA140917CA7A62006668A4 /* AngularViewController.h */,
 				01FA140A17CA7A62006668A4 /* AngularViewController.m */,
+				01FA141117CA84B8006668A4 /* CollisionViewController.h */,
+				01FA141217CA84B8006668A4 /* CollisionViewController.m */,
 				01FA140D17CA7BEE006668A4 /* DynamicButton.h */,
 				01FA140E17CA7BEE006668A4 /* DynamicButton.m */,
 				01C9638417C6836000749D80 /* Supporting Files */,
@@ -277,6 +283,7 @@
 				01C9638E17C6836000749D80 /* AppDelegate.m in Sources */,
 				01C9638A17C6836000749D80 /* main.m in Sources */,
 				01FA140B17CA7A62006668A4 /* AngularViewController.m in Sources */,
+				01FA141317CA84B8006668A4 /* CollisionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +294,7 @@
 				01C963A917C6836000749D80 /* Dynamics_PlayTests.m in Sources */,
 				01FA141017CA7BEE006668A4 /* DynamicButton.m in Sources */,
 				01FA140C17CA7A62006668A4 /* AngularViewController.m in Sources */,
+				01FA141417CA84B8006668A4 /* CollisionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

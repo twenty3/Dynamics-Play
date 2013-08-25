@@ -59,7 +59,9 @@
     self.dynamicItemBehavior = [[UIDynamicItemBehavior alloc] initWithItems:@[self]];
     self.dynamicItemBehavior.elasticity = 0.5;
     self.dynamicItemBehavior.resistance = 0.1;
+    self.dynamicItemBehavior.angularResistance = 0.5;
 }
+
 
 #pragma mark - UIView
 
