@@ -21,6 +21,10 @@
 		01C9639F17C6836000749D80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C9638117C6836000749D80 /* UIKit.framework */; };
 		01C963A717C6836000749D80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01C963A517C6836000749D80 /* InfoPlist.strings */; };
 		01C963A917C6836000749D80 /* Dynamics_PlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C963A817C6836000749D80 /* Dynamics_PlayTests.m */; };
+		01FA140B17CA7A62006668A4 /* AngularViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA140A17CA7A62006668A4 /* AngularViewController.m */; };
+		01FA140C17CA7A62006668A4 /* AngularViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA140A17CA7A62006668A4 /* AngularViewController.m */; };
+		01FA140F17CA7BEE006668A4 /* DynamicButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA140E17CA7BEE006668A4 /* DynamicButton.m */; };
+		01FA141017CA7BEE006668A4 /* DynamicButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA140E17CA7BEE006668A4 /* DynamicButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		01C963A417C6836000749D80 /* Dynamics PlayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dynamics PlayTests-Info.plist"; sourceTree = "<group>"; };
 		01C963A617C6836000749D80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		01C963A817C6836000749D80 /* Dynamics_PlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dynamics_PlayTests.m; sourceTree = "<group>"; };
+		01FA140917CA7A62006668A4 /* AngularViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AngularViewController.h; sourceTree = "<group>"; };
+		01FA140A17CA7A62006668A4 /* AngularViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AngularViewController.m; sourceTree = "<group>"; };
+		01FA140D17CA7BEE006668A4 /* DynamicButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicButton.h; sourceTree = "<group>"; };
+		01FA140E17CA7BEE006668A4 /* DynamicButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +126,10 @@
 				01C9638F17C6836000749D80 /* Main.storyboard */,
 				01C9639217C6836000749D80 /* GravityAndForcesViewController.h */,
 				01C9639317C6836000749D80 /* GravityAndForcesViewController.m */,
+				01FA140917CA7A62006668A4 /* AngularViewController.h */,
+				01FA140A17CA7A62006668A4 /* AngularViewController.m */,
+				01FA140D17CA7BEE006668A4 /* DynamicButton.h */,
+				01FA140E17CA7BEE006668A4 /* DynamicButton.m */,
 				01C9638417C6836000749D80 /* Supporting Files */,
 			);
 			path = "Dynamics Play";
@@ -261,8 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				01C9639417C6836000749D80 /* GravityAndForcesViewController.m in Sources */,
+				01FA140F17CA7BEE006668A4 /* DynamicButton.m in Sources */,
 				01C9638E17C6836000749D80 /* AppDelegate.m in Sources */,
 				01C9638A17C6836000749D80 /* main.m in Sources */,
+				01FA140B17CA7A62006668A4 /* AngularViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +285,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				01C963A917C6836000749D80 /* Dynamics_PlayTests.m in Sources */,
+				01FA141017CA7BEE006668A4 /* DynamicButton.m in Sources */,
+				01FA140C17CA7A62006668A4 /* AngularViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
