@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		015477F717D41F0F0049750E /* LoggingDynamicItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 015477F617D41F0F0049750E /* LoggingDynamicItem.m */; };
+		015477FA17D540DE0049750E /* AttachmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 015477F917D540DE0049750E /* AttachmentViewController.m */; };
 		01C9637E17C6836000749D80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C9637D17C6836000749D80 /* Foundation.framework */; };
 		01C9638017C6836000749D80 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C9637F17C6836000749D80 /* CoreGraphics.framework */; };
 		01C9638217C6836000749D80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C9638117C6836000749D80 /* UIKit.framework */; };
@@ -40,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		015477F517D41F0F0049750E /* LoggingDynamicItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggingDynamicItem.h; sourceTree = "<group>"; };
+		015477F617D41F0F0049750E /* LoggingDynamicItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoggingDynamicItem.m; sourceTree = "<group>"; };
+		015477F817D540DE0049750E /* AttachmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttachmentViewController.h; sourceTree = "<group>"; };
+		015477F917D540DE0049750E /* AttachmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttachmentViewController.m; sourceTree = "<group>"; };
 		01C9637A17C6836000749D80 /* Dynamics Play.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dynamics Play.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01C9637D17C6836000749D80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		01C9637F17C6836000749D80 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -134,8 +140,12 @@
 				01FA140A17CA7A62006668A4 /* AngularViewController.m */,
 				01FA141117CA84B8006668A4 /* CollisionViewController.h */,
 				01FA141217CA84B8006668A4 /* CollisionViewController.m */,
+				015477F817D540DE0049750E /* AttachmentViewController.h */,
+				015477F917D540DE0049750E /* AttachmentViewController.m */,
 				01FA140D17CA7BEE006668A4 /* DynamicButton.h */,
 				01FA140E17CA7BEE006668A4 /* DynamicButton.m */,
+				015477F517D41F0F0049750E /* LoggingDynamicItem.h */,
+				015477F617D41F0F0049750E /* LoggingDynamicItem.m */,
 				01C9638417C6836000749D80 /* Supporting Files */,
 			);
 			path = "Dynamics Play";
@@ -281,7 +291,9 @@
 				01C9639417C6836000749D80 /* GravityAndForcesViewController.m in Sources */,
 				01FA140F17CA7BEE006668A4 /* DynamicButton.m in Sources */,
 				01C9638E17C6836000749D80 /* AppDelegate.m in Sources */,
+				015477F717D41F0F0049750E /* LoggingDynamicItem.m in Sources */,
 				01C9638A17C6836000749D80 /* main.m in Sources */,
+				015477FA17D540DE0049750E /* AttachmentViewController.m in Sources */,
 				01FA140B17CA7A62006668A4 /* AngularViewController.m in Sources */,
 				01FA141317CA84B8006668A4 /* CollisionViewController.m in Sources */,
 			);

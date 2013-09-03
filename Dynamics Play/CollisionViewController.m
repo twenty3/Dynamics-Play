@@ -46,8 +46,6 @@ const NSString* tabBarBoundaryIdentifier = @"tabBarBoundaryIdentifier";
         CGFloat dy = 100 - y;
         CGRect buttonFrame = CGRectOffset(frame, dx, dy);
         
-        NSLog(@"Frame:%@", NSStringFromCGRect(buttonFrame));
-        
         DynamicButton* button = [[DynamicButton alloc] initWithFrame:buttonFrame];
 
         [button setTitle:@"Tap" forState:UIControlStateNormal];

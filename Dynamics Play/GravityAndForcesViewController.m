@@ -9,6 +9,7 @@
 #import "GravityAndForcesViewController.h"
 
 #import "DynamicButton.h"
+#import "LoggingDynamicItem.h"
 
 @interface GravityAndForcesViewController ()
 
@@ -47,6 +48,12 @@
     
     [self.animator addBehavior:self.button.dynamicItemBehavior];
     [self.animator addBehavior:self.button.pushBehavior];
+    
+    // Add a logging item
+    LoggingDynamicItem* loggingItem = [LoggingDynamicItem loggingDynamicItemWithIdentity:nil];
+    [self.button.pushBehavior addItem:loggingItem];
+    [gravityBehavior addItem:loggingItem];
+    [collisionBehavior addItem:loggingItem];
 }
 
 

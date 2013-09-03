@@ -53,7 +53,8 @@
     // Behaviors
     
     self.pushBehavior = [[UIPushBehavior alloc] initWithItems:@[self] mode:UIPushBehaviorModeInstantaneous];
-    [self.pushBehavior setAngle:-M_PI_2 magnitude:20.0];
+    CGFloat magnitude = (self.frame.size.width * self.frame.size.height) / 500.0;
+    [self.pushBehavior setAngle:-M_PI_2 magnitude:magnitude];
     self.pushBehavior.active = NO;
     
     self.dynamicItemBehavior = [[UIDynamicItemBehavior alloc] initWithItems:@[self]];

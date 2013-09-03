@@ -7,12 +7,15 @@
 //
 
 #import "AngularViewController.h"
+
 #import "DynamicButton.h"
+#import "LoggingDynamicItem.h"
 
 @interface AngularViewController ()
 
 @property (nonatomic, strong) DynamicButton* button;
-@property (nonatomic, retain) UIDynamicAnimator* animator;
+@property (nonatomic, strong) UIDynamicAnimator* animator;
+@property (nonatomic, strong) LoggingDynamicItem* loggingItem;
 
 
 @end
@@ -39,13 +42,19 @@
     
     [self.animator addBehavior:self.button.dynamicItemBehavior];
     [self.animator addBehavior:self.button.pushBehavior];
+    
+    // Add a logging item
+    self.loggingItem = [LoggingDynamicItem loggingDynamicItemWithIdentity:nil];
+    [self.button.dynamicItemBehavior addItem:self.loggingItem];
+    [self.button.pushBehavior addItem:self.loggingItem];
 }
-
 
 - (void) buttonWasTapped:(id)sender
 {
     DynamicButton* tappedButton = (DynamicButton*)sender;
     [tappedButton.dynamicItemBehavior addAngularVelocity:5.0 forItem:tappedButton];
+    // add the same angular velocity to our logging item so we can see the effect
+    [tappedButton.dynamicItemBehavior addAngularVelocity:5.0 forItem:self.loggingItem];
 }
 
 

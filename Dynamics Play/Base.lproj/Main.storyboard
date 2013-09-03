@@ -21,7 +21,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I9g-lU-PbD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="27" y="-63"/>
+            <point key="canvasLocation" x="-2121" y="357"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="ioc-eb-c1x">
@@ -37,11 +37,12 @@
                         <segue destination="G7c-ho-OSU" kind="relationship" relationship="viewControllers" id="xmT-Gu-SwT"/>
                         <segue destination="Ol6-hz-Ian" kind="relationship" relationship="viewControllers" id="S4g-ho-Ch9"/>
                         <segue destination="AJf-4F-3Lr" kind="relationship" relationship="viewControllers" id="gcm-N3-UOQ"/>
+                        <segue destination="qrX-E0-3ZR" kind="relationship" relationship="viewControllers" id="0NX-1G-BMT"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DFr-sE-yMr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-507" y="264"/>
+            <point key="canvasLocation" x="-1407" y="1077"/>
         </scene>
         <!--Collision View Controller - Collisions 🎱 -->
         <scene sceneID="sj5-go-TQM">
@@ -60,7 +61,26 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3LN-96-sdf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="27" y="1314"/>
+            <point key="canvasLocation" x="-1129" y="357"/>
+        </scene>
+        <!--Attachment View Controller - Attachment 📎-->
+        <scene sceneID="Ssy-4R-1Du">
+            <objects>
+                <viewController id="qrX-E0-3ZR" customClass="AttachmentViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SNT-UY-KvR"/>
+                        <viewControllerLayoutGuide type="bottom" id="du7-Mw-YDU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="acQ-Sd-7fo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Attachment 📎" id="yRS-Ab-F82"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W16-cr-C7x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-726" y="357"/>
         </scene>
         <!--Angular View Controller - Angular 🌀-->
         <scene sceneID="GLP-rG-Mgp">
@@ -79,7 +99,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BDZ-9l-Eq3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="27" y="630"/>
+            <point key="canvasLocation" x="-1613" y="357"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
